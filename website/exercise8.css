@@ -1,0 +1,53 @@
+body {
+	background-color: lightgray;
+}
+
+h1 {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+p {
+	background-color: rgba(153, 0, 51, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+h2 {
+	background-color: rgb(38, 64, 33);
+	color: rgb(211, 211, 211);
+}
+
+.gold {
+	background-color: rgb(212, 175, 55);
+}
+
+dl dt {
+	background-color: hsl(120, 73%, 75%);
+}
+
+dl dd {
+	background-color: hsl(193, 100%, 58%);
+}
+
+#block {
+	color: rgb(209, 118, 143);
+}
+
+#blueTrans {
+	background-color: rgba(0, 0, 255, 0.4);
+}
+
+#shadedBlue {
+	background-color: rgba(6, 57, 112, 0.4);
+	color: rgba(255, 255, 255, 1);
+}
+
+#shadedOrange {
+	background-color: rgba(226, 135, 67, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+#shadedRed {
+	background-color: rgba(153, 0, 51, 1);
+	color: rgba(255, 255, 255, 1);
+}

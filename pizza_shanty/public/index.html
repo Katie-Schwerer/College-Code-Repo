@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="stylesheets/pizza.css" rel="stylesheet" type="text/css" >
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Pizza Shanty</h1>
+    <form id='customize' name='pizzaForm' action='/pizza_shanty_save' method='post'>
+    <div class="topping">
+      <h3>How many toppings would you like?</h3>
+      <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni
+      <input type="checkbox" name="toppings" value="Hamburger">Humburger
+      <input type="checkbox" name="toppings" value="Onion">Onion
+      <input type="checkbox" name="toppings" value="Mushroom">Mushroom
+      <input type="checkbox" name="toppings" value="Turkey">Turkey
+    </div>
+
+    <div class="size">
+      <h3>What size pizza do you want?</h3>
+      <input type="radio" name="crust_size" value="small" checked>Small
+      <input type="radio" name="crust_size" value="medium">Medium
+      <input type="radio" name="crust_size" value="large">Large
+      <input type="radio" name="crust_size" value="giant">Giant
+    </div>
+
+    <div class="type">
+      <h3>What type of crust?</h3>
+      <input type="radio" name="crust_type" value="thin" checked>Thin
+      <input type="radio" name="crust_type" value="pan">Pan
+      <input type="radio" name="crust_type" value="stuffed">Stuffed
+      <input type="radio" name="crust_type" value="square">Square
+    </div>
+
+    <div class="cheese">
+      <h3>Do you want extra cheese?</h3>
+      <input type="radio" name="extra_cheese" value="no" checked>No Extra Cheese
+      <input type="radio" name="extra_cheese" value="yes">Extra Cheese
+    </div>
+
+    <div class="total">
+      <h3>Total & Clear Form</h3>
+      <div class="tips">
+        <h4>Tip: </h4>
+        <input type="text" value="0" id="tips">
+      </div>
+      <div class="text">
+        <input type="text" value="10.88" id="text" name="total_price" readonly>
+        <input type="reset" value="Clear">
+      </div>
+    </div>
+    <br>
+    <div class="address">
+      <h3>Address</h3>
+      Address: 
+					<input id='address' name='address'>
+				</label>
+				<br>
+				<br>
+				<input type='submit' value='Place Order'>
+    </div>
+  </form>
+  </div>
+  <script src="javascripts/pizza.js"></script>
+</body>
+</html>

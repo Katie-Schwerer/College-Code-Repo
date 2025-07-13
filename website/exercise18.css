@@ -1,0 +1,46 @@
+body {
+  background-color: yellow;
+}
+
+table {
+  border: 1px solid gray;
+  box-shadow: .5px .5px #888888;
+}
+
+td {
+  border: 1px solid black;
+}
+
+p {
+  margin: 0;
+  padding-left: 22px;
+}
+
+#ingredients, #admin {
+  padding-left: 10px;
+}
+
+#ingredients {
+  border-style: dotted;
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  box-shadow: 10px 10px black;
+}
+
+#admin {
+  background-color: lightgreen;
+  width: 215px;
+}
+
+h1 {
+  border-style: dashed;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+ul {
+  background-color: lightpink;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 12px;
+}

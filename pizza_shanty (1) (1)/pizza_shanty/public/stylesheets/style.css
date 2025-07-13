@@ -1,0 +1,52 @@
+article {
+	border: dashed 1px black;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 10px 10px 10px;
+}
+
+body {
+	background-color: rgb(247, 188, 107);
+}
+
+h1 {
+	text-align: center;
+	color: rgb(135, 14, 14);
+}
+
+h2 {
+	color: rgb(135, 14, 14);
+}
+
+p.tipText {
+	display: inline;
+}
+	
+fieldset {
+	border: none;
+}
+
+label {
+	margin-right: 20px;
+}
+
+p.totals {
+	font-weight: bold;
+}
+
+td {
+	border: dashed 1px black;
+	padding: 10px 10px 10px 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+	background-color: rgb(198, 150, 86);
+}
+
+span {
+	cursor: pointer;
+	color: rgb(135, 14, 14);
+}

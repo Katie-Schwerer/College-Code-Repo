@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Acme Corporation Feedback</title>
+</head>
+<body>
+  <form action="https://student2.cs.appstate.edu/crr/3440/homework/h3/contact/" method="post">
+    <!--First Box-->
+    <fieldset>
+      <legend>
+        Send Us Feedback
+      </legend>
+      <!--To email-->
+      <label for="email-to">
+        To:
+        <br/>
+        <input type="text" name="emailTo" size="30" maxlength="100" value="Acme Corporation" id="email-to" readonly>
+      </label>
+      <br />
+      <br />
+      <!-- Email-->
+      <label for="email">
+        Email:
+        <br />
+        <input type="email" id="email" name="emailFrom" size="30" maxlength="100" required/>
+      </label>
+      <br />
+      <br>
+      <!--Message-->
+      <label for="message">
+        Message:
+      </label>
+      <br />
+      <textarea rows="5" cols="20" name="emailBody" id="message" placeholder="Type your message here..." required></textarea>
+    </fieldset>
+    <!--End of First Box-->
+    <!--Beginning of Second Box-->
+    <fieldset>
+      <legend>
+        Survey Questions
+      </legend>
+      <!--Referrer-->
+      <label for="hear-about">
+          How did you hear about us?
+      <br />
+      <select name="referrer" id="hear-about">
+        <option value="google" id="google">Google</option>
+        <option value="ad" id="newspaper-ad">Newspaper Ad</option>
+        <option value="friend" id="friend">Friend</option>
+        <option value="other" id="other">Other</option>
+      </select>
+      </label>
+      <br />
+      <br />
+      <!-- Subscribe-->
+      <label for="subscribe">
+        Would you like to receive our newsletter?
+        <br />
+        <input type="checkbox" name="newsletter" id="subscribe" value="yes" checked="checked" /> Yes please. Send me the newsletter
+      </label>
+    </fieldset>
+    <!--Ending of the second Box-->
+    <!--Start of third box-->
+    <fieldset>
+      <legend>
+        Rate Our Service
+      </legend>
+      <!--Rating-->
+      <label for="rating_1">
+        <input type="radio" name="rating" value="1" id="rating_1" />
+        Very Poor
+      </label>
+      <br />
+      <label for="rating_2">
+        <input type="radio" name="rating" value="2" id="rating_2" />
+        Poor
+      </label>
+      <br />
+      <label for="rating_3">
+        <input type="radio" name="rating" value="3" id="rating_3" />
+        Average
+      </label>
+      <br />
+      <label for="rating_4">
+        <input type="radio" name="rating" value="4" id="rating_4" />
+        Good
+      </label>
+      <br />
+      <label for="rating_5">
+        <input type="radio" name="rating" value="5" id="rating_5"/>
+        Very Good
+      </label>
+    </fieldset>
+    <!--End of Third Box-->
+    <input type="submit" value="Send Message" id="submit-button" />
+  </form>
+
+</body>
+</html>

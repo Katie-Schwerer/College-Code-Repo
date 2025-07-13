@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>Pizza Shanty</title>
+		<link rel='stylesheet' href='./stylesheets/style.css'>
+		<script defer src='./javascripts/pizza_shanty.js'></script>
+	</head>
+	<body>
+		<h1>Pizza Shanty</h1>
+		
+		<form id='customize' name='pizzaForm' action='/pizza_shanty_save' method='post'>
+			<article>
+				<h2>Customize Your Pizza</h2>
+				
+				<fieldset>
+					<legend>Toppings</legend>
+					
+					<label for='pepperoni'>
+						<input type='checkbox' class='topping' id='pepperoni' name='toppings' value='Pepperoni'>
+						Pepperoni
+					</label>
+					<label for='mushroom'>
+						<input type='checkbox' class='topping' id='mushroom' name='toppings' value='Mushrooms'>
+						Mushrooms
+					</label>
+					<label for='ham'>
+						<input type='checkbox' class='topping' id='ham' name='toppings' value='Ham'>
+						Ham
+					</label>
+					<label for='pineapple'>
+						<input type='checkbox' class='topping' id='pineapple' name='toppings' value='Pineapple'>
+						Pineapple
+					</label>
+				</fieldset>
+				<br>
+				
+				<fieldset>
+					<legend>Crust Size</legend>
+					<label for='smallSz'>
+						<input type='radio' id='smallSz' name='crust_size' value='Small' checked>
+						Small
+					</label>
+					<label for='mediumSz'>
+						<input type='radio' id='mediumSz' name='crust_size' value='Medium'>
+						Medium
+					</label>
+					<label for='largeSz'>
+						<input type='radio' id='largeSz' name='crust_size' value='Large'>
+						Large
+					</label>
+					<label for='giantSz'>
+						<input type='radio' id='giantSz' name='crust_size' value='Giant'>
+						Giant
+					</label>
+				</fieldset>
+				<br>
+				
+				<fieldset>
+					<legend>Crust Type</legend>
+					<label for='thinCrst'>
+						<input type='radio' id='thinCrst' name='crust_type' value='Thin' checked>
+						Thin
+					</label>
+					<label for='panCrst'>
+						<input type='radio' id='panCrst' name='crust_type' value='Pan'>
+						Pan
+					</label>
+					<label for='stuffedCrst'>
+						<input type='radio' id='stuffedCrst' name='crust_type' value='Stuffed'>
+						Stuffed
+					</label>
+					<label for='squareCrst'>
+						<input type='radio' id='squareCrst' name='crust_type' value='Square'>
+						Square
+					</label>
+				</fieldset>
+				<br>
+				
+				<fieldset>
+					<legend>Extra</legend>
+					<label for='xtraCheese'>
+						<input type='checkbox' class='extra' id='xtraCheese' name='extra_cheese' value=true>
+						Extra Cheese
+					</label>
+				</fieldset>
+				<br>
+				
+				<div class='but'>
+					<button id='clearBtn' type='button'>Clear</button>
+				</div>
+			</article>
+		
+			<article>
+				<h2>Total</h2>
+			
+				<p id='subtotal' class='totals'>Subtotal: $X.XX</p>
+				<fieldset>
+					<legend>Add a Tip</legend>
+					
+					<input type='radio' id='bigTip' name='tip' value='big' checked>
+					<label for='bigTip' id='btL'>
+						25%
+					</label>
+					
+					<input type='radio' id='mediumTip' name='tip' value='medium'>
+					<label for='mediumTip' id='mtL'>
+						20%
+					</label>
+					
+					<input type='radio' id='smallTip' name='tip' value='small'>
+					<label for='smallTip' id='stL'>
+						18%
+					</label>
+					
+					<input type='radio' id='smallestTip' name='tip' value='smallest'>
+					<label for='smallestTip' id='sttL'>
+						15%
+					</label>
+					
+					<input type='radio' id='noTip' name='tip' value='no'>
+					<label for='noTip'>
+						No Tip
+					</label>
+				</fieldset>
+				<p id='total' class='totals'>Total: $X.XX</p>
+				
+				<input type='hidden' id='finalPrice' name='total_price' value=0>
+				
+			</article>
+			<article>
+				<h2>Delivery</h2>
+				
+				<label for='addressBox'>
+				Address: 
+					<input id='address' name='address'>
+				</label>
+				<br>
+				<br>
+				<input type='submit' value='Place Order'>
+			</article>
+		</form>
+	</body>
+</html>

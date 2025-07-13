@@ -1,0 +1,55 @@
+.courses {
+	list-style-image: url("../images/star.png");
+}
+
+.right {
+	border-right: 2px solid;
+}
+
+.menu {
+	display: inline-block;
+	font-family: Arial, Verdana, sans-serif;
+	border-left: 2px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.menu:hover {
+	background-color: #f968ff;
+}
+
+hr {
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	
+}
+
+.data {
+	table-layout: auto;
+	width: 100%;
+	min-width: 500px;
+	resize: both;
+    overflow: auto;
+	border-collapse: collapse;
+}
+
+
+table thead tr th {
+	text-align: left;
+	color: #da7959;
+	border-top: 2px solid Blue;
+	border-bottom: 2px solid Blue;
+}
+
+.zebra {
+	background-color: lightgray;
+}
+
+th {
+	padding: 3px;
+}
+
+td {
+	padding: 5px;
+}
