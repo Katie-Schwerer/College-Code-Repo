@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TicketKiosk
+comment0.text=\r\n\ Simulate\ ticket\ sales\ at\ Boone\ International\ Airport.\r\n\ DO\ NOT\ ADD\ ANY\ OTHER\ FIELDS\ TO\ THIS\ CLASS\!\!\!\r\n\ \r\n\ @author\ Joel\ Swanson\r\n\ @version\ 03/11/2014\r\n
+comment1.params=
+comment1.target=TicketKiosk()
+comment1.text=\r\n\ DO\ NOT\ CHANGE\ THIS\ METHOD\r\n\ Constructor\ for\ objects\ of\ class\ TicketKiosk.\r\n\ @throws\ IOException\ Throws\ for\ input/output\ error.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ You\ may\ change\ this\ method\ for\ testing\ purposes,\ but\ it\r\n\ should\ be\ changed\ back\ when\ done.\r\n\ \r\n\ Create\ a\ new\ TicketKiosk\ and\ start\ it\ dispensing\ tickets.\r\n\ @param\ args\ Command\ line\ arguments.\r\n\ @throws\ IOException\ Throws\ for\ input/output\ error.\r\n
+comment3.params=keyboard
+comment3.target=void\ purchaseTickets(java.util.Scanner)
+comment3.text=\r\n\ Create\ a\ ticket\ based\ on\ user\ input.\ \ \r\n\ Loop\ until\ the\ user\ enters\ exit\ as\ a\ name.\r\n\ Note\ that\ a\ keyboard\ scanner\ is\ provided.\r\n\ @param\ keyboard\ Allows\ keyboard\ input\ from\ the\r\n\ customer.\r\n
+comment4.params=flightNumber
+comment4.target=Flight\ findFlight(int)
+comment4.text=\r\n\ DO\ NOT\ CHANGE\ THIS\ METHOD\r\n\ All\ of\ the\ flights\ are\ created\ in\ methods\ readSchedule\ and\r\n\ readOneFlight.\ \ Your\ program\ simply\ need\ to\ find\ the\ correct\ \r\n\ flight\ based\ on\ the\ flight\ number.\ The\ customer\ sees\ the\ \r\n\ schedule,\ picks\ out\ a\ flight\ number\ and\ enters\ it.\ \ This\r\n\ method\ takes\ that\ flight\ number\ and\ returns\ the\ correct\r\n\ flight\ object.\ \ This\ method\ will\ return\ null\ if\ the\ use\r\n\ enters\ a\ bad\ flight\ number\ (i.e.\ a\ flight\ number\ that\ does\r\n\ not\ correspond\ to\ one\ of\ the\ flights\ on\ the\ schedule)\r\n\ \r\n\ @param\ flightNumber\ The\ flightNumber\ to\ find\ a\ flight\ object.\r\n\ @return\ The\ flight\ object\ corresponding\ to\ the\ flight\ number\r\n\ or\ null\ if\ a\ bad\ flight\ number\ was\ given.\r\n
+comment5.params=
+comment5.target=void\ printSchedule()
+comment5.text=\r\n\ DO\ NOT\ CHANGE\ THIS\ METHOD\r\n\ Print\ the\ schedule\ of\ flights.\r\n
+comment6.params=
+comment6.target=void\ readSchedule()
+comment6.text=\r\n\ DO\ NOT\ CHANGE\ THIS\ METHOD.\r\n\ Read\ the\ schedule\ of\ flights\ from\ the\ input\ file.\r\n\ @throws\ IOException\ Throws\ for\ input/output\ error.\r\n
+comment7.params=inFile
+comment7.target=Flight\ readOneFlight(java.util.Scanner)
+comment7.text=\r\n\ Create\ a\ flight\ object\ from\ a\ file.\ \r\n\ @param\ inFile\ Scanner\ object\ for\ reading\ the\ file.\r\n\ @throws\ IOException\ Throws\ for\ input/output\ error.\r\n\ @return\ A\ flight\ object\ created\ from\ file\ input.\r\n
+numComments=8

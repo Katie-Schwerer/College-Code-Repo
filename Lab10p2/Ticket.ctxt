@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ticket
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ticket\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=customer\ flight
+comment1.target=Ticket(Customer,\ Flight)
+comment1.text=\r\n\ @param\ customer\ is\ the\ customer\r\n\ @param\ flight\ is\ the\ flight\r\n
+comment2.params=
+comment2.target=Customer\ getCustomer()
+comment2.text=\r\n\ @return\ customer\r\n
+comment3.params=
+comment3.target=Flight\ getFlight()
+comment3.text=\r\n\ @return\ flight\r\n
+comment4.params=customer
+comment4.target=void\ setCustomer(Customer)
+comment4.text=\r\n\ @param\ customer\ is\ the\ customer\r\n
+comment5.params=flight
+comment5.target=void\ setFlight(Flight)
+comment5.text=\r\n\ @param\ flight\ is\ the\ flight\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ @return\ a\ string\r\n
+numComments=7

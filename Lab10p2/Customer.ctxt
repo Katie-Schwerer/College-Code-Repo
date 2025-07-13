@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Customer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ ssn
+comment1.target=Customer(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ @param\ name\ of\ customer.\r\n\ @param\ ssn\ of\ customer.\r\n
+comment2.params=customer
+comment2.target=Customer(Customer)
+comment2.text=\r\n\ @param\ customer\ is\ part\ of\ the\ Constructor.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ @return\ String\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSsn()
+comment4.text=\r\n\ @return\ String\r\n
+comment5.params=name
+comment5.target=void\ setName(java.lang.String)
+comment5.text=\r\n\ @param\ name\ of\ customer\r\n
+comment6.params=ssn
+comment6.target=void\ setSsn(java.lang.String)
+comment6.text=\r\n\ @param\ ssn\ of\ customer\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ @return\ String\r\n
+numComments=8
