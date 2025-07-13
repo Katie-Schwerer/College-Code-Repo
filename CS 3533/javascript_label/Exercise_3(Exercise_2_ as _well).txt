@@ -1,0 +1,2 @@
+﻿Google - Compiled Javascript
+FireFox - Interpreted Javascript
