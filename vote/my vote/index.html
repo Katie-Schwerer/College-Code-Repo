@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset='utf-8'>
+  <title>Vote for your favorite</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <style>
+    body {
+      background-color:rgb(43, 43, 43);
+    }
+
+    .memez .image {
+      opacity: 0.2;
+      width: 100%;
+      height: 350px;
+      background-position: center center;
+      background-color: gray;
+    }
+
+    .memez .image:hover {
+      opacity: 1;
+    }
+
+    .memez [type=radio]+label:before,
+    .memez [type=radio]+label:after {
+      display: none;
+    }
+
+    .memez [type=radio]+label {
+      width: 100%;
+      height: 350px;
+      padding: 0;
+    }
+
+    .memez [type=radio]:not(:checked)+label .image {
+      border: 5px solid white;
+    }
+
+    .memez [type=radio]:checked+label .image {
+      border: 5px solid aqua;
+      opacity: 1;
+    }
+
+    .center-btn {
+      text-align: center;
+    }
+
+    h5 {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h3 class="header" style="text-align: center;">
+    <pre>Vote for your favorite Swanson meme!</pre>
+  </h3>
+  <form action="vote.php" get="GET">
+    <div class="row memez">
+    <div class="col s6 m3">
+      <input type="radio" id='shrekson' name="choice" value="shrekson">
+      <label for='shrekson'>
+        <div class="image" style="background-image: url(images/shrekson.png)"></div>
+        <h5>Shrekson</h5>
+      </label>
+    </div>
+    <div class="col s6 m3">
+      <input type="radio" id='swanson-bond' name="choice" value="swanson-bond">
+      <label for='swanson-bond'>
+        <div class="image" style="background-image: url(images/swanson-bond.png)"></div>
+        <h5>Joeles Swond</h5>
+      </label>
+    </div>
+    <div class="col s6 m3">
+      <input type="radio" id='swansterio' name="choice" value="swansterio">
+      <label for='swansterio'>
+        <div class="image" style="background-image: url(images/swansterio.png)"></div>
+        <h5>Swansterio</h5>
+      </label>
+    </div>
+    <div class="col s6 m3">
+      <input type="radio" id='swolson' name="choice" value="swolson">
+      <label for='swolson'>
+        <div class="image" style="background-image: url(images/swolson.png)"></div>
+        <h5>Swolson</h5>
+      </label>
+    </div>
+  </div>
+  <div class="center-btn">
+    <button class="btn-large waves-effect waves-light" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+  </div>
+    
+  </form>
+
+
+</body>
+
+</html>

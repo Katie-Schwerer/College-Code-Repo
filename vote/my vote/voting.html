@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--an example of a responsive php webpage-->
+<html lang="en">
+  <head>
+    <style>
+      .goofy {
+        width:300px;
+        height:200px;
+      }
+    </style>
+    <meta charset='utf-8'>
+    <title>Vote for your favorite</title>
+  </head>
+<!--Our three choices below-->
+  <body bgcolor = "red">
+    <form method = "get" action = "voting.php">
+    <label for = "kitty">
+      <img src = "images/hellokitty.png">
+      <input type = "radio" name = "choice" value = "kitty" id = "kitty">
+    </label>
+    <label for = "shrek">
+      <img src ="images/shrek.png">
+      <input type = "radio" name = "choice" value = "shrek" id = "shrek">
+    </label>
+    <label for = "snoopy">
+      <img src ="images/snoopy.png">
+      <input type = "radio" name = "choice" value = "snoopy" id = "snoopy">
+    </label>
+    <label for = "goofy">
+      <img  src ="images/goofy.png" class = "goofy">
+      <input type = "radio" name = "choice" value = "goofy" id = "goofy">
+    </label> 
+    <hr>
+<p>
+  <!--Our submit button-->
+<input type = "submit" value = "Cast Vote">
+</p>
+  </form>
+  </body>
+
+</html>

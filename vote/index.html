@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <title>Vote for your favorite</title>
+  </head>
+
+  <body bgcolor='lightgreen'>
+    <form method="post" action="vote.php"> 
+	  <hr>
+	  
+      <table>  
+        <td>
+          <label for='shrek'>
+            <input  type="radio"  id='shrek' name="choice"  value="shrek">
+            <img  src="images/shrek.png" >
+            </label>
+          </td>
+          <td>
+            <label for='kitty'>
+            <input  type="radio"  id='kitty' name="choice"  value="kitty">
+            <img  src="images/hellokitty.png">
+            </label>
+          </td>
+          <td>
+            <label for='snoopy'>
+            <input  type="radio"  id='snoopy' name="choice"  value="snoopy">
+            <img  src="images/snoopy.png">
+            </label>
+          </td>   
+        </table>
+
+	  
+	  <hr>
+	  <input type='submit' value="Cast Vote">
+	</form>
+  </body>
+
+</html>
