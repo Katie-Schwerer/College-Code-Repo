@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Style
+comment0.text=\r\n\ This\ class\ tests\ checkstyle\ in\ BlueJ.\r\n\ \r\n\ It\ will\ test\ to\ find\ simple\ errors\ in\ the\ code\ below.\r\n\r\n\ @author\ (Katie\ Schwerer)\ \r\n\ @version\ (Version\ 1)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ The\ programs\ start\ with\ main.\r\n\ The\ class\ is\ used\ to\ checkstyle.\r\n\ @param\ args\ Command\ line\ arguments.\r\n
+numComments=2

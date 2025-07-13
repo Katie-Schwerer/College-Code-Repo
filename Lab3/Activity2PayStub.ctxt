@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Activity2PayStub
+comment0.text=\r\n\ Short,\ one-line\ description\ of\ Activity2PayStub\ class\ here.\r\n\ \r\n\ Optionally,\ include\ a\ paragraph\ that\ provides\ a\ more\ \r\n\ detailed\ description.\r\n\r\n\ @author\ (Katie\ Schwerer)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ It\ all\ starts\ with\ the\ main\ method.\r\n\r\n\ @param\ args\ command-line\ arguments\ (not\ used)\r\n
+comment2.params=keyboard
+comment2.target=void\ getInput(java.util.Scanner)
+comment2.text=\r\n\ getInput\ the\ Scanner\ keyboard.\r\n\ \r\n\ @param\ keyboard\ input\r\n
+comment3.params=
+comment3.target=void\ calculate()
+comment3.text=\r\n\ calculates\ the\ values.\r\n\ \r\n
+comment4.params=
+comment4.target=void\ printPayStub()
+comment4.text=\r\n\ print\ out\ all\ the\ data\ for\ the\ person.\r\n
+numComments=5

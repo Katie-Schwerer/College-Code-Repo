@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StyleDeclTest
+comment0.text=\r\n\ The\ test\ class\ StyleDeclTest.\r\n\r\n\ This\ is\ an\ advanced\ class\ used\ to\ unit\ test\ student\ work\ for\ CS\ 1440\ Lab\ 3.\ \ \r\n\ Students\ are\ welcome\ to\ view\ the\ code\ as\ an\ example\ of\ "good"\ code.\ \ At\ a\ \r\n\ "high\ level"\ 1440\ students\ can\ understand\ that\ this\ code\ tests\ the\ code\ they\r\n\ are\ writing\ in\ a\ "companion"\ class.\ \ They\ can\ see\ the\ inputs\ going\ into\ a\ \r\n\ test\ and\ the\ results\ expected.\ \ However,\ there\ is\ much\ sophisticated\ stuff\ \r\n\ going\ on\ "under\ the\ hood."\ \ Students\ should\ NOT\ be\ discouraged\ if\ they\ \r\n\ don't\ "get"\ the\ details.\ \ \r\n\r\n\ @author\ \ Jay\ Fenwick\r\n\ @version\ Spring\ 2014\r\n
+comment1.params=
+comment1.target=StyleDeclTest()
+comment1.text=\r\n\ Default\ constructor.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testStyleDeclarations()
+comment4.text=\r\n\ Test\ the\ expected\ method\ declarations.\ \ \r\n\ \r\n\ We\ are\ only\ interested\ in\ the\ main\ method\ for\ now.\r\n
+comment5.params=
+comment5.target=void\ testSilent()
+comment5.text=\r\n\ Silently\ (no\ output)\ performs\ test.\ \ Failure\ causes\ JUnit\ failure.\ \ \r\n\ Success\ just\ returns\ to\ caller\ who\ ultimately\ is\ an\ @Test\ Junit\ test.\r\n
+numComments=6
