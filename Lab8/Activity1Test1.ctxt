@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Activity1Test1
+comment0.text=\r\n\ Tests\ the\ functionality\ of\ Activity\ 1.\r\n\ \r\n\ @author\ Julia\r\n\ @version\ 2014-03-18\r\n
+comment1.params=
+comment1.target=void\ testNoArg()
+comment1.text=\r\n\ Tests\ the\ no-arg\ constructor.\r\n
+comment2.params=
+comment2.target=void\ testConstants()
+comment2.text=\r\n\ Tests\ the\ values\ of\ the\ constants.\r\n
+comment3.params=
+comment3.target=void\ testRandomGeneratorAM()
+comment3.text=\r\n\ Tests\ the\ getRandomGenerator\ and\ setRandomGenerator\ methods.\r\n
+comment4.params=
+comment4.target=void\ testGenerateLotteryNumber()
+comment4.text=\r\n\ Tests\ that\ the\ generateLotteryNumber\ method\ produces\ numbers\r\n\ between\ 1\ and\ max\ number,\ inclusive.\r\n
+comment5.params=
+comment5.target=void\ testGeneratePowerBallNumber()
+comment5.text=\r\n\ Tests\ that\ the\ generatePowerBallNumber\ method\ produces\ numbers\r\n\ between\ 1\ and\ max\ number,\ inclusive.\r\n
+numComments=6
